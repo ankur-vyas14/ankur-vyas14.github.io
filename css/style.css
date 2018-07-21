@@ -957,6 +957,7 @@ ul.simplefilter {
     padding: 7px;
     background: #FFFFFF;
     border: 1px solid #eee;
+	box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.1), 0 4px 22px 0 rgba(0, 0, 0, 0.1);
 }
 
 .jm-item-image {
@@ -1051,7 +1052,8 @@ p.w3ls-p-text {
 	-moz-transition: all 0.5s ease-in 0.5s;
 	-o-transition: all 0.5s ease-in 0.5s;
 	transition: all 0.5s ease-in 0.5s;
-	top: -100px;	
+	top: -100px;
+	z-index: 1;
 }
 
 .first .jm-item-wrapper:hover .jm-item-button {
